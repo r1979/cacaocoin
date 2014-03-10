@@ -516,7 +516,7 @@ void StakeMiner(CWallet *pwallet)
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
 
     // Make this thread recognisable as the mining thread
-    RenameThread("blackcoin-miner");
+    RenameThread("cacaocoin-miner");
 
     // Each thread has its own counter
     unsigned int nExtraNonce = 0;
